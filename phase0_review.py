@@ -7,7 +7,7 @@ frequency = 5  # Hz
 t = np.linspace(0, 1, 500)  # 500 points over 1 second
 signal = np.sin(2 * np.pi * frequency * t)
 
-magnitude = random.choice([.5, 1, 1.5, 2])
+magnitude = 1
 
 # Apply a phase shift which is how the signals combine to form a beam and cancel out where there should not be a beam
 phase_shift = np.pi / 4 # 45 degrees in radians
